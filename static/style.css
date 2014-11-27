@@ -2,7 +2,13 @@ body {
   font-size: 16px;
   font-family: Helvetica Neue;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+
+  color: #333333;
+}
+a {
+  color: #3B90D1;
+}
 
 .content {
   width: 95%;
