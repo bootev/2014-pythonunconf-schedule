@@ -2,25 +2,114 @@ title: My awesome conference
 days:
   - name: Saturday
     slots:
-      - start: '12:00'
-        end: '13:00'
-
+      - start: '09:30'
+        end: '10:30'
         talks:
-          - speaker: Robin Drexler
-            title: How Geloet will save us all
-            location: H1
+          - speaker: ''
+            title: Einlass, Registrierung und Frühstück
+            location: Foyer
 
-          - speaker: Katrin Werner
-            title: Geloet is jsut not worth it
-            location: H2
-
-      - start: '12:00'
-        end: '13:00'
-
+      - start: '10:30'
+        end: '11:45'
         talks:
-          - speaker: Peter
-            title: Wurst is good
-            location: H1
+          - speaker: ''
+            title: Opening Session
+            location: Foyer
+
+      - start: '11:45'
+        end: '12:45'
+        talks:
+          - speaker: ''
+            title: Keynote
+            location: H6
+
+      - start: '12:45'
+        end: '13:30'
+        talks:
+          - speaker: tbd
+            title: tbd
+            location: H3
+
+          - speaker: tbd
+            title: tbd
+            location: H5
+
+          - speaker: tbd
+            title: tbd
+            location: H6
+
+      - start: '13:30'
+        end: '14:15'
+        talks:
+          - speaker: ''
+            title: Mittagessen
+            location: Foyer
+
+      - start: '14:15'
+        end: '14:45'
+        talks:
+          - speaker: ''
+            title: Lightning Talks
+            location: H6
+
+      - start: '15:00'
+        end: '15:45'
+        talks:
+          - speaker: tbd
+            title: tbd
+            location: H3
+
+          - speaker: tbd
+            title: tbd
+            location: H5
+
+          - speaker: tbd
+            title: tbd
+            location: H6
+
+      - start: '15:45'
+        end: '16:30'
+        talks:
+          - speaker: ''
+            title: Kaffeepause
+            location: Foyer
+
+      - start: '16:30'
+        end: '17:15'
+        talks:
+          - speaker: tbd
+            title: tbd
+            location: H3
+
+          - speaker: tbd
+            title: tbd
+            location: H5
+
+          - speaker: tbd
+            title: tbd
+            location: H6
+
+      - start: '17:30'
+        end: '18:30'
+        talks:
+          - speaker: ''
+            title: Closing Session
+            location: Foyer
+
+      - start: '18:00'
+        end: '19:30'
+        talks:
+          - speaker: ''
+            title: Vollversammlung des Python Software Verband e.V.
+            location: ''
+
+      - start: '19:30'
+        end: 'open end'
+        talks:
+          - speaker: ''
+            title: 'Party im <a href="http://www.schanzenstern.com/index.php/de/st-pauli/anfahrt">Schanzenstern</a>'
+            location: ''
+
 
   - name: Sunday
     slots:
