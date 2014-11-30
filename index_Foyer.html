@@ -1,0 +1,128 @@
+<html manifest="cache.appcache">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#ffff00">
+  <link rel="icon" sizes="192x192" href="favicon.png">
+
+</head>
+
+<body>
+<div class="content">
+  <header>
+  <h1>Python Unconference 2014</h1>
+</header>
+
+<a href="index.html">Home</a>
+
+<h2>Foyer - Samstag</h2>
+
+
+<div class="slot-container">
+  <span class="slot-time-start">09:30</span> -
+  <span class="slot-time-end">10:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Einlass, Registrierung und Frühstück</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">10:30</span> -
+  <span class="slot-time-end">11:45</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Opening Session</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">13:30</span> -
+  <span class="slot-time-end">14:15</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Mittagessen</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">15:45</span> -
+  <span class="slot-time-end">16:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Kaffeepause</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slot-container">
+  <span class="slot-time-start">17:30</span> -
+  <span class="slot-time-end">18:30</span>
+
+  <div class="talks-container">
+    <div class="talk-container">
+      <div class="talk-title">Closing Session</div>
+      <div class="talk-footer">
+        <div class="talk-speaker"></div>
+        <div class="talk-location">Foyer</div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    Made with ❤ and <a href="http://bit.ly/15El32q">cosch</a>
+  </div>
+</div>
+
+<script type="application/javascript">
+  (function () {
+    if (!window.applicationCache) {
+      return;
+    }
+    window.addEventListener('load', function (e) {
+      window.applicationCache.addEventListener('updateready', function (e) {
+        if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+          if (confirm('Schedule has updated. Want to reload?')) {
+            window.location.reload();
+          }
+        }
+      }, false);
+
+    }, false);
+  })();
+
+</script>
+</body>
+
+</html>
