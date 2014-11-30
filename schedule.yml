@@ -151,8 +151,8 @@ days:
             title: Mittagessen
             location: Foyer
 
-      - start: '14:30'
-        end: '15:00'
+      - start: '14:00'
+        end: '14:30'
         talks:
           - speaker: ''
             title: Lightning Talks
@@ -162,7 +162,8 @@ days:
         end: '15:30'
         talks:
           - speaker: ''
-            title: 'Abby - An open source Django app tp document A/B tests<br><br><a href="https://pyunconf.pad.foebud.org/20">Dokumentation</a>'
+            title: '#failexchange<br><br><a href="https://pyunconf.pad.foebud.org/18">Dokumentation</a>'
+
             location: H4
 
           - speaker: ''
@@ -184,7 +185,7 @@ days:
         end: '17:00'
         talks:
           - speaker: ''
-            title: '#failexchange<br><br><a href="https://pyunconf.pad.foebud.org/18">Dokumentation</a>'
+            title: 'Abby - An open source Django app tp document A/B tests<br><br><a href="https://pyunconf.pad.foebud.org/20">Dokumentation</a>'
             location: H4
 
           - speaker: ''
