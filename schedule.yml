@@ -151,8 +151,8 @@ days:
             title: Mittagessen
             location: Foyer
 
-      - start: '14:00'
-        end: '14:30'
+      - start: '13:45'
+        end: '14:15'
         talks:
           - speaker: ''
             title: Lightning Talks
